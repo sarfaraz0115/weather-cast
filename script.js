@@ -52,7 +52,7 @@ function getLocation(){
                 switch (data.weather[0].icon) {
                     case "01d":
                     case "01n":
-                        bg.style.backgroundImage = "url(/Images&Icons/clear-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/clear-bg.gif)";
                         bg.style.color = "#000";
                     break;
                     case "02d":
@@ -61,29 +61,29 @@ function getLocation(){
                     case "03n":
                     case "04d":
                     case "04n":
-                        bg.style.backgroundImage = "url(/Images&Icons/cloud-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/cloud-bg.gif)";
                         bg.style.color = "#fff";
                     break;
                     case "09d":
                     case "09n":
                     case "10d":
                     case "10n":
-                        bg.style.backgroundImage = "url(/Images&Icons/rain-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/rain-bg.gif)";
                         bg.style.color = "#000";
                     break;
                     case "11d":
                     case "11n":
-                        bg.style.backgroundImage = "url(/Images&Icons/thunderstorm-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/thunderstorm-bg.gif)";
                         bg.style.color = "#000";
                     break;
                     case "13d":
                     case "13n":
-                        bg.style.backgroundImage = "url(/Images&Icons/snow-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/snow-bg.gif)";
                         bg.style.color = "#000";
                     break;
                     case "50d":
                     case "50n":
-                        bg.style.backgroundImage = "url(/Images&Icons/mist-bg.gif)";
+                        bg.style.backgroundImage = "url(Images&Icons/mist-bg.gif)";
                         bg.style.color = "#000";
                     break;
                     default:
