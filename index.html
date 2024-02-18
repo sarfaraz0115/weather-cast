@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather cast</title>
+    <link rel="shortcut icon" href="Images&Icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="left">
+                <div class="left-cover">
+                    <img src="/Images&Icons/location.gif" alt="finding location">
+                    <span>Getting your current location</span>
+                </div>
+                <div class="left-upper">
+                    <span id="left-city">.......</span>
+                    <span id="left-country">....</span>
+                </div>
+                <div class="left-bottom">
+                    <span id="left-temp">....</span>
+                    <span id="time">.....</span>
+                    <span id="today">.....</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="search" id="search" placeholder="Enter your city">
+                    <button><img src="Images&Icons/search.png" alt="search" width="50%"></button>
+                </div>
+                <div class="error">
+                    <p>No city found</p>
+                </div>
+                <div class="card">
+                    <img src="Images&Icons/01d.png" alt="sunny" id="icon">
+                    <p>Sunny</p>
+                    <div class="info">
+                        <div class="info-left">
+                            <abbr title="Wind Speed"><span><img src="Images&Icons/wind.png" alt="wind"><span id="wind-speed">0 km/h</span></span></abbr>
+                            <abbr title="Humidity"><span><img src="Images&Icons/humidity.png" alt="humidity"><span id="humidity">0%</span></span></abbr>
+                        </div>
+                        <div class="info-right">
+                            <abbr title="Temprature"><span id="temp">10°C</span></abbr>
+                            <span id="location">Ajmer,IN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <span><a href="">Click to get source code</a></span><pre>  |  Desgined by Syed Sarfaraz Ali  |  </pre><span><a href="">Click to get Resume</a></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
